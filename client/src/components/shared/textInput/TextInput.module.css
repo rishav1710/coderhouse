@@ -1,0 +1,20 @@
+.textInput {
+  background-color: #292829;
+  border: none;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+}
+/* Chrome, Safari, Edge, Opera */
+.textInput::-webkit-outer-spin-button,
+.textInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.textInput[type="number"] {
+  -moz-appearance: textfield;
+}

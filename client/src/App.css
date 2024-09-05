@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Fira Mono", "monospace" !important;
+}
+
+.App {
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #141216 !important;
+  color: #fffdff !important;
+  height: 100vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #141216;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(121, 121, 121);
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
