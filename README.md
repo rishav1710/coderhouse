@@ -18,7 +18,6 @@ Each guest in the room can join the speakers board by sending a join request to 
   - Socket.io is used for realtime communication of server and end users
   - Authentication is handled using JWT and refresh token method
   - Twilio is used for OTP service
-  - Docker is used for Containerization
 
 ## Setup
 
